@@ -1,1 +1,6 @@
 c:\users\wecancodeit\documents\visual studio 2015\Projects\ShoskesVirtualPet\ShoskesVirtualPet\bin\Debug\ShoskesVirtualPet.exe.config
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\ShoskesVirtualPet\ShoskesVirtualPet\obj\Debug\ShoskesVirtualPet.csprojResolveAssemblyReference.cache
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\ShoskesVirtualPet\ShoskesVirtualPet\bin\Debug\ShoskesVirtualPet.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\ShoskesVirtualPet\ShoskesVirtualPet\bin\Debug\ShoskesVirtualPet.pdb
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\ShoskesVirtualPet\ShoskesVirtualPet\obj\Debug\ShoskesVirtualPet.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\ShoskesVirtualPet\ShoskesVirtualPet\obj\Debug\ShoskesVirtualPet.pdb
