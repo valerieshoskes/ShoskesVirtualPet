@@ -24,9 +24,36 @@ namespace ShoskesVirtualPet
             Console.WriteLine("What is your {0}'s name?", petType);
             string petName = Console.ReadLine();
             QuitCheck(petName);
-            VirtualPet myPet = new VirtualPet(petType, petName);
-            Console.WriteLine("{0} has been through some rough times..", petName);
-            Console.WriteLine("All their attributes are only at 5 :(");
+            int gameDifficulty = 0;
+            do
+            {
+                Console.WriteLine("Would you like an easy pet, medium pet, or difficult pet?");
+                string difficultyInput = Console.ReadLine();
+                QuitCheck(difficultyInput);
+                switch (difficultyInput.ToLower())
+                {
+                    case "easy":
+                        gameDifficulty = 15;
+                        Console.WriteLine("{0} is almost ready to go!", petName);
+                        Console.WriteLine("All their attributes are at 15, so they need some more work.");
+                        break;
+                    case "medium":
+                        gameDifficulty = 10;
+                        Console.WriteLine("{0] hasn't had it easy, but not TOO hard.", petName);
+                        Console.WriteLine("All their attributes are at 10, so you have a bit to go.");
+                        break;
+                    case "difficult":
+                        gameDifficulty = 5;
+                        Console.WriteLine("{0} has been through some rough times..", petName);
+                        Console.WriteLine("All their attributes are only at 5 :(");
+                        break;
+                    default:
+                        Console.WriteLine("Please enter a difficulty");
+                        break;
+                }
+            }
+            while (gameDifficulty == 0);
+            VirtualPet myPet = new VirtualPet(petType, petName, gameDifficulty);
             Console.WriteLine("But you can help {0}! Here they are:", petName);
             do
             {
