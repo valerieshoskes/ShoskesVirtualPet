@@ -17,6 +17,7 @@ namespace ShoskesVirtualPet
             string petType = "";
             do {
                 Console.WriteLine("Would you like to foster a cat or a dog?");
+                Console.WriteLine("Please type cat or dog.");
                 petType = Console.ReadLine().ToLower();
                 QuitCheck(petType);
             }
@@ -39,7 +40,7 @@ namespace ShoskesVirtualPet
                         break;
                     case "medium":
                         gameDifficulty = 10;
-                        Console.WriteLine("{0] hasn't had it easy, but not TOO hard.", petName);
+                        Console.WriteLine("{0} hasn't had it easy, but not TOO hard.", petName);
                         Console.WriteLine("All their attributes are at 10, so you have a bit to go.");
                         break;
                     case "difficult":

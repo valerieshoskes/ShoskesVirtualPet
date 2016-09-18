@@ -179,7 +179,7 @@ namespace ShoskesVirtualPet
         public void Tick()
         {
             StatusCheck();
-            Console.Write("\n\n\n");
+            Console.Write("\n\n");
             if (catOrDog == "cat")
             {
                 Console.WriteLine("  /\\___/\\");
@@ -205,7 +205,7 @@ namespace ShoskesVirtualPet
             Console.WriteLine("Socialization is at: " + Socialization);
             Console.WriteLine("Cleanliness is at: " + Cleanliness);
             Console.WriteLine("Energy is at: " + Energy);
-            Console.Write("\n\n");
+            Console.Write("\n");
             Console.WriteLine("Press 1 to feed, 2 to provide water, 3 to play, 4 to clean up waste,");
             Console.WriteLine("or 5 to tuck in for the night");
 
